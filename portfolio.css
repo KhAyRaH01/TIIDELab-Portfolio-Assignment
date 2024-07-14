@@ -303,21 +303,17 @@ audio {
     font-size: 14px;
   }
 
-  .himage {
-    margin-top: 20px;
-    display: none;
-  }
+  
 
-  .himage img {
-    display: none;
-  }
-}
+  
 
 /* Mobile devices */
 @media (max-width: 480px) {
+  
   .logo {
     height: 60px;
     width: 160px;
+  }
     .navdiv {
       width: 100%;
     }
