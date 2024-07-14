@@ -219,7 +219,7 @@ audio {
 }
 
 /* Tablets */
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .navdiv {
     width: 100%;
   }
