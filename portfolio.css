@@ -334,7 +334,7 @@ audio {
 
       text-align: center;
       box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-      padding: 0 16px;
+      padding: 0 12px;
       border-radius: 8px;
     }
     nav ul li a {
@@ -394,11 +394,11 @@ audio {
 
 @media (max-width: 320px) {
   .Header h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .Header p {
-    font-size: 10px;
+    font-size: 8px;
   }
   .Header {
     padding: 120px 20px 20px;
@@ -631,7 +631,7 @@ audio {
 
 @media (max-width: 320px) {
   .About .aboutme h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .About .aboutme p {
@@ -886,8 +886,7 @@ audio {
 }
 
 .but button {
-  color: white;
-  font-weight: 600;
+letter-spacing: 1px;
   border: none;
   background-color: #fb68ae;
   padding: 10px 20px;
@@ -901,6 +900,12 @@ audio {
   transition: 0.5s;
 }
 
+.but button a{
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+  letter-spacing: 1px;
+}
 /* *************************************************************************************** */
 
 /* Media Queries For Services*/
@@ -942,8 +947,13 @@ audio {
   }
 
   .but button {
-    padding: 10px 26px;
-    font-size: 16px;
+    padding: 12px 28px;
+   
+   
+  }
+  .but button a{
+     font-size: 16px;
+     font-weight: 600;
   }
 }
 
@@ -973,12 +983,18 @@ audio {
 
   .title p {
     font-size: 14px;
+   
   }
 
   .but button {
     font-size: 12px;
-    padding: 8px 16px;
+    padding: 10px 26px;
   }
+
+  .but button a{
+    font-size: 14px;
+   
+ }
 }
 
 /* Mobile devices */
@@ -989,27 +1005,33 @@ audio {
   .services {
     flex-direction: column;
     gap: 50px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0px;
   }
   .h1 {
-    padding: 0px 20px 20px 20px;
+    padding: 0px 0px 20px 0px;
   }
 
   .h1 h1 {
     font-size: 18px;
+    
   }
 
   .service {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 12px;
+    width: 80%;
+    padding: 10px;
   }
 
   .title p {
     font-size: 12px;
   }
+
+  .but button a{
+    font-size: 10px;
+  
+ }
 }
 
 @media (max-width: 320px) {
@@ -1027,7 +1049,7 @@ audio {
   .services {
     flex-direction: column;
     gap: 30px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0px;
   }
 
@@ -1036,8 +1058,8 @@ audio {
     flex-direction: column;
 
     padding: 12px;
-    width: 100%;
-    gap: 2px;
+    
+    gap: 4px;
   }
 
   .title p {
