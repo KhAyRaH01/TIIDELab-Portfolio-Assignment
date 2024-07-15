@@ -631,7 +631,7 @@ audio {
 
 @media (max-width: 320px) {
   .About .aboutme h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .About .aboutme p {
@@ -661,7 +661,7 @@ audio {
 }
 
 .Services h1 {
-  font-size: 48px;
+  font-size: 40px;
   color: #7d003a;
   font-weight: 700;
   padding: 50px 25px;
@@ -677,9 +677,9 @@ audio {
 }
 
 .services-image img {
-  width: 100%;
+
   width: 50px;
-  object-fit: contain;
+  object-fit:contain;
 }
 .services-text h3 {
   color: #7d003a;
@@ -777,7 +777,7 @@ audio {
   }
 
   .Services h1 {
-    font-size: 28px;
+    font-size: 20px;
     padding-bottom: 20px;
   }
 
@@ -788,15 +788,22 @@ audio {
   }
 
   .services-card h3 {
-    font-size: 18px;
+    font-size: 12px;
     padding-top: 14px;
+    padding-bottom: 8px;
   }
 
   .services-card p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .services-content {
     padding-top: 0px;
+  }
+
+  .services-image img {
+
+    width: 30px;
+    object-fit:contain;
   }
 }
 
@@ -806,7 +813,7 @@ audio {
   }
 
   .Services h1 {
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     padding: 0 0 20px 0;
   }
@@ -814,30 +821,24 @@ audio {
   .services-card {
     width: 100%;
     flex-direction: column;
-    padding: 12px;
+    padding: 14px;
   }
 
   .services-card h3 {
-    font-size: 16px;
+    font-size: 10px;
+    padding-bottom: 8px;
+    
   }
   .services-content {
     padding: 0px;
   }
 
   .services-card p {
-    font-size: 12px;
+    font-size: 8px;
   }
 }
 
-@media (max-width: 320px) {
-  .services-card h3 {
-    font-size: 14px;
-    padding-top: 12px;
-  }
-  .services-card p {
-    font-size: 10px;
-  }
-}
+
 
 /* SERVICES STYLING END*/
 
@@ -888,14 +889,16 @@ audio {
   color: white;
   font-weight: 600;
   border: none;
-  background-color: #ffa7d2;
+  background-color: #fb68ae;
   padding: 10px 20px;
   border-radius: 4px;
   letter-spacing: 1px;
+
 }
 
 .but button:hover {
-  background-color: #ffe1ef;
+  background-color:#fb68ae90;
+  transition: 0.5s;
 }
 
 /* *************************************************************************************** */
@@ -922,7 +925,7 @@ audio {
   }
 
   .h1 h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .service {
@@ -957,7 +960,7 @@ audio {
   }
 
   .h1 h1 {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .service {
@@ -994,7 +997,7 @@ audio {
   }
 
   .h1 h1 {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .service {
@@ -1100,7 +1103,7 @@ audio {
 }
 
 #contactus form textarea {
-  border: 1px solid #aeaeae;
+  border: 1px solid #ffe1ef;
 
   color: #151213;
   border-radius: 4px;
@@ -1276,7 +1279,7 @@ audio {
     width: 100%;
   }
   #contactus form label {
-    font-size: 12px;
+    font-size: 14px;
   }
   .contactuscontent form input {
     font-size: 8px;
@@ -1318,6 +1321,15 @@ audio {
 
   #contactus {
     padding: 20px;
+  }
+  #contactus form label {
+    font-size: 12px;
+  }
+
+
+  #contactus form input, #contactus form textarea {
+    font-size: 10px;
+
   }
 
   #contactus h1 {
